@@ -1,4 +1,7 @@
-Experimenting with Docker.
+python-simpleserver
+===================
+
+Experiments with Docker and python.
 
 This `Dockerfile` builds an image that runs a python `SimpleHTTPServer`
 serving a single static asset.
