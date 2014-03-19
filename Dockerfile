@@ -16,8 +16,7 @@ RUN apt-get update
 RUN apt-get install -y python python-dev
 
 # Add files
-RUN mkdir -p /simpleserver
-ADD ./index.html /simpleserver/index.html
+ADD ./index.html /simpleserver/
 
 # Set working directory
 WORKDIR /simpleserver
